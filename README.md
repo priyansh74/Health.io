@@ -1,2 +1,1 @@
 # Health.io
-Mini project
