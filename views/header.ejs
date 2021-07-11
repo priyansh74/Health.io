@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale = 1">
+    <title>Health.io | We're here to help you take care of anything and everything with ease. </title>
+   <!-- <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="lab la-accusoft"></span><span><a id="brandName" href="/home">Health.io</a></span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a id="Dashboard" href="/home" class="a"><span class="las la-igloo"></span> <!--adding class=active means it on it-->
+                        <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a id="Hospitals" href="/hospitals" class="a"><span class="las la-users"></span>
+                        <span>Hospitals</span></a>
+                </li>
+                <li>
+                    <a id="Clinics" href="/clinics" class="a"><span class="las la-clipboard-list"></span>
+                        <span>Clinics</span></a>
+                </li>
+                <li>
+                    <a id="Laboratory" href="/laboratory" class="a" ><span class="las la-clipboard-list" ></span>
+                        <span>Laboratory</span></a>
+                </li>
+                <li>
+                    <a id="Medicine" href="/medicine" class="a "><span class="las la-receipt"></span>
+                        <span>Medicine Outlet</span></a>
+                </li>
+                <li>
+                    <a id="Ambulance" href="/ambulance" class="a" ><span class="las la-user-circle"></span>
+                        <span>Ambulance</span></a>
+                </li>
+                <li>
+                    <a id="Police" href="/police" class="a"><span class="las la-clipboard-list"></span>
+                        <span>Police</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="main-content">
+         <header>
+            <h2 id="sectionNames" >
+                <label for="nav-toggle" >
+                    <span class="las la-bars"></span>
+                </label>
+                <%=sectionName%>
+            </h2>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Search here">
+            </div>
+            <div class="user-wrapper">
+                <img src="img/log.svg" alt="" width="40px" height="40px">
+                <div>
+                    <h4>Priyansh Jha</h4>
+                    <small> <a href="/">Log Out</a></small>
+                </div>
+            </div>
+         </header>
+    
+
+    
